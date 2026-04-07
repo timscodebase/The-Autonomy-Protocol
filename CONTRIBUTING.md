@@ -26,7 +26,7 @@ To maintain consistency across our digital and physical assets, follow these for
 ## 🛤 How to Contribute
 
 ### Step 1: Claim or Open an Issue
-Before starting work, browse the current [Kanban Boards] or Issues. If you have a new idea for a vocational path (e.g., Law, Arts, or Agriculture), open a new Issue for "System Architecture Review" first.
+Before starting work, browse the current [Kanban Boards](https://github.com/users/webrune-tim/projects/1/views/1) or Issues. If you have a new idea for a vocational path (e.g., Law, Arts, or Agriculture), open a new Issue for "System Architecture Review" first.
 
 ### Step 2: Drafting Modules
 When drafting a new module, use the `LESSON_PLAN_TEMPLATE.md`. Every contribution must include:
