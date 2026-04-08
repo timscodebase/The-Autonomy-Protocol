@@ -1,6 +1,6 @@
 <script lang="ts">
 	import favicon from '$lib/assets/favicon.svg';
-	import "./global.css"
+	import './global.css';
 
 	import Header from '$components/Header.svelte';
 
@@ -25,8 +25,13 @@
 
 <style>
 	.layout-wrapper {
+		max-width: 800px;
+		margin: var(--gap-2) auto;
 		min-height: 100svh;
 		display: grid;
+		padding: var(--gap-2);
 		grid-template-rows: auto 1fr auto;
+		background-color: var(--blue-60);
+		box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.5);
 	}
 </style>
