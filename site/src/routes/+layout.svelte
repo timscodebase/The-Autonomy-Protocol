@@ -11,7 +11,12 @@
 
 <div class="layout-wrapper">
 	<header>
-		Header
+		<div class="logo"><h1>AP</h1></div>
+		<nav>
+            <a href="/">Home</a>
+            <a href="/about">About</a>
+            <a href="/contact">Contact</a>
+		</nav>
 	</header>
 
 	<main>
