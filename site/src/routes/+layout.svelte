@@ -2,6 +2,8 @@
 	import favicon from '$lib/assets/favicon.svg';
 	import "./global.css"
 
+	import Header from '$components/Header.svelte';
+
 	let { children } = $props();
 </script>
 
@@ -10,16 +12,7 @@
 </svelte:head>
 
 <div class="layout-wrapper">
-	<header>
-		<div class="logo"><h1>AP</h1></div>
-		<nav>
-            <a href="/">Home</a>
-            <a href="/about">About</a>
-			<a href="/curriculum">Curriculum</a>
-			<a href="/resources">Resources</a>
-            <a href="/contact">Contact</a>
-		</nav>
-	</header>
+	<Header />
 
 	<main>
 		{@render children()}
