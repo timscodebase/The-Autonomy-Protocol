@@ -206,21 +206,6 @@
 		}
 	}
 
-    .slider:before {
-        position: absolute;
-        content: "";
-        height: 18px;
-        width: 18px;
-        left: 3px;
-        bottom: 3px;
-        background-color: var(--white);
-        transition: .4s;
-        border-radius: 50%;
-    }
-
-    input:checked + .slider { background-color: var(--accent-2); }
-    input:checked + .slider:before { transform: translateX(26px); }
-
     .submit-btn {
         background: var(--accent);
         color: var(--blue-80);
