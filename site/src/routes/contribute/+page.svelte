@@ -19,7 +19,7 @@
 </section>
 
 <section class='content'>
-<h1>Contributing to The Autonomy Protocol</h>
+<h1>Contributing to The Autonomy Protocol</h1>
 
 <p>Thank you for your interest in contributing to The Autonomy Protocol. To maintain the pedagogical integrity and professional standards required for public school implementation, we ask that all contributors adhere to the following guidelines.</p>
 
