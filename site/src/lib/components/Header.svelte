@@ -1,7 +1,7 @@
 <script lang="ts">
-	import Logo from './Logo.svelte';
-	import Nav from './Nav.svelte';
-	import Pill from './Pill.svelte';
+	import Logo from './Logo.svelte'
+	import Nav from './Nav.svelte'
+	import Pill from './Pill.svelte'
 </script>
 
 <header>
@@ -24,7 +24,7 @@
 	@media (max-width: 600px) {
 		header {
 			justify-content: center;
-			gap: var(--gap-2);
+			gap: 0 var(--gap-2);
 		}
 	}
 </style>

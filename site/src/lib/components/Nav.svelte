@@ -4,8 +4,8 @@
 		<li><a href="/about">About</a></li>
 		<li><a href="/curriculum">Curriculum</a></li>
 		<li><a href="/resources">Resources</a></li>
+		<li><a href="/contribute">Contribute</a></li>
 		<li><a href="/contact">Contact</a></li>
-        <li><a href="/contribute">Contribute</a></li>
 	</ul>
 </nav>
 
@@ -17,7 +17,7 @@
 		justify-content: center;
 		flex-wrap: wrap;
 		gap: var(--gap-2);
-		padding: 0;
+		padding: var(--gap-2) 0;
 		margin: 0;
 		font-weight: bold;
 	}
