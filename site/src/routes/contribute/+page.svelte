@@ -19,24 +19,27 @@
 </section>
 
 <section class='content'>
-Contributing to The Autonomy Protocol
+<h1>Contributing to The Autonomy Protocol</h>
 
-Thank you for your interest in contributing to The Autonomy Protocol. To maintain the pedagogical integrity and professional standards required for public school implementation, we ask that all contributors adhere to the following guidelines.
+<p>Thank you for your interest in contributing to The Autonomy Protocol. To maintain the pedagogical integrity and professional standards required for public school implementation, we ask that all contributors adhere to the following guidelines.</p>
 
-🎓 Philosophical Alignment
+<h2>Philosophical Alignment</h2>
 
-The Autonomy Protocol is built on the principle of Internal Self-Governance. All contributions must avoid:
+<h3>The Autonomy Protocol is built on the principle of Internal Self-Governance. All contributions must avoid:</h3>
 
-Political Bias: Content must remain neutral and focused on universal cognitive skills rather than specific social or political agendas.
-Secular Rigor: Ensure all frameworks are stripped of religious or therapeutic terminology, focusing instead on observable behavioral executive functions.
-Subjectivity: Prioritize data-driven, observable learning outcomes over subjective emotional states.
-🏗 Content Standards
+<ul>
+<li><strong>Political Bias:</strong> Content must remain neutral and focused on universal cognitive skills rather than specific social or political agendas.</li>
+<li><strong>Secular Rigor:</strong> Ensure all frameworks are stripped of religious or therapeutic terminology, focusing instead on observable behavioral executive functions.</li>
+<li><strong>Subjectivity:</strong> Prioritize data-driven, observable learning outcomes over subjective emotional states.</li>
+</ul>
 
-When contributing lesson plans, practicums, or vocational paths, utilize the following structural standards:
+<h2>Content Standards</strong>
 
-1. The Approved Lexicon
+<p>When contributing lesson plans, practicums, or vocational paths, utilize the following structural standards:</p>
 
-Always utilize the "Human Operating System" terminology established in the GEMINI.md file.
+<h3>1. The Approved Lexicon</h3>
+
+<p>Always utilize the "Human Operating System" terminology established in the GEMINI.md file.</p>
 
 Refer to accountability as: Systems Maintenance or Internal Regulation.
 Refer to interpersonal repair as: The Amends Protocol or Restorative Practice.
