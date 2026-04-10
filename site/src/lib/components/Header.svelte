@@ -1,10 +1,12 @@
 <script lang="ts">
 	import Logo from './Logo.svelte';
 	import Nav from './Nav.svelte';
+	import Pill from './Pill.svelte';
 </script>
 
 <header>
 	<Logo />
+	<Pill>&#945; Alpha</Pill>
 	<Nav />
 </header>
 
