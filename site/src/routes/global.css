@@ -77,6 +77,13 @@ h1 {
 	color: var(--accent-2);
 }
 
+h3,
+h4,
+h5,
+h6 {
+	color: var(--accent-3);
+}
+
 .hero {
     display: grid;
     place-items: center;

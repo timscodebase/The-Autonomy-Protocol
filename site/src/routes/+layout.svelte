@@ -8,6 +8,9 @@
 </script>
 
 <svelte:head>
+	<title>The Autonomy Protocol</title>
+	<meta name="description" content='Stop letting drama and stress run the show. Learn the "Life Skills" you actually need to be
+			your own boss.' />
 	<link rel="icon" href={favicon} />
 </svelte:head>
 
