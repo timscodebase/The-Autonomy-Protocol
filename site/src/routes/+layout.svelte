@@ -2,7 +2,7 @@
 	import favicon from '$lib/assets/favicon.svg';
 	import './global.css';
 
-	import { Footer, Header } from '$components';
+	import { Banner, Footer, Header } from '$components';
 
 	let { children } = $props();
 </script>
@@ -15,6 +15,10 @@
 	<Header />
 
 	<main>
+		<Banner>
+			<p>This site is still under heavy development. Content may change without notice.</p>
+			<p>If you encounter any issues, please report them via our <a href="/contact">contact page</a> or on <a href="https://github.com/webrune-tim/The-Autonomy-Protocol/issues">GitHub Issues</a> page.</p>
+		</Banner>
 		{@render children()}
 	</main>
 
