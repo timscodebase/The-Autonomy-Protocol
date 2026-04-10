@@ -38,6 +38,7 @@ a {
 	text-decoration: none;
 
 	&:hover {
+		color: var(--accent-2);
 		text-decoration: underline;
 	}
 }
@@ -60,7 +61,7 @@ h1 {
 .hero {
     display: grid;
     place-items: center;
-    /*min-height: 60svh;*/
+    min-height: 40svh;
     position: relative;
     overflow: hidden;
 	padding: var(--gap-1);
@@ -101,7 +102,7 @@ h1 {
 	border-bottom: 2px solid var(--accent);
 
 	&:last-of-type {
-		border-bottom: none;
+		border-bottom: none !important;
 	} 
 }
 
