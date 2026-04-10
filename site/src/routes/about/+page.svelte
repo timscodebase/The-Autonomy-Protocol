@@ -54,7 +54,7 @@
 					<strong>Making Things Right:</strong> Learn how to actually fix a mistake (the Amends Protocol)
 					instead of just saying "sorry" and hoping it goes away.
 				</li>
-				<li>Daily Check-In: Spend a few minutes every day making sure you're still on track.</li>
+				<li><strong>Daily Check-In:</strong> Spend a few minutes every day making sure you're still on track.</li>
 			</ul>
 		</li>
 		<li>

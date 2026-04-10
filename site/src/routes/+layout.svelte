@@ -2,7 +2,7 @@
 	import favicon from '$lib/assets/favicon.svg';
 	import './global.css';
 
-	import Header from '$components/Header.svelte';
+	import { Footer, Header } from '$components';
 
 	let { children } = $props();
 </script>
@@ -18,9 +18,7 @@
 		{@render children()}
 	</main>
 
-	<footer>
-		<p>The Autonomy Project &copy; {new Date().getFullYear()}</p>
-	</footer>
+	<Footer />
 </div>
 
 <style>
