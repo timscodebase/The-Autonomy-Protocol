@@ -100,7 +100,7 @@
 				type="button"
 				class="control-option"
 				class:active={formData.isOfferingHelp}
-				onclick={() => (!formData.isOfferingHelp = false)}
+				onclick={() => (formData.isOfferingHelp = false)}
 			>
 				<LifeBuoy size={18} />
 				<span>I want to help</span>
