@@ -51,6 +51,12 @@
 				starts and build a reputation people respect.
 			</p>
 			<p><strong>Block the noise and stay focused.</strong></p>
+            <ol>
+              <li><strong>Be impecable with your word:</strong></li>
+              <li><strong>Don't take anything/anyone personaly:</strong></li>
+              <li><strong>Don't make any assumptions:</strong></li>
+              <li><strong>Always do your best:</strong></li>
+            <\ol>
 		</div>
 	</div>
 </section>
