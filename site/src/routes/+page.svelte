@@ -43,6 +43,19 @@
 				your mistakes, and keep moving forward.
 			</p>
 			<p><strong>Turn "I messed up" into "I fixed it."</strong></p>
+            <ol>
+               <li>Admited that life gets unmanagable and out of my control</li>
+               <li></li>
+               <li></li>
+               <li></li>
+               <li></li>
+               <li></li>
+               <li></li>
+               <li></li>
+               <li></li>
+               <li></li>
+               <li></li>
+               <li></li>
 		</div>
 		<div>
 			<h4>The Integrity Shield</h4>
