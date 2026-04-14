@@ -1,5 +1,5 @@
 <script lang="ts">
-	import HeroImage from '$images/img-4.jpg?enhanced&w=400;800;1600;2400'
+	import HeroImage from '$images/pic-6.jpg?enhanced&w=400;800;1600;2400'
 </script>
 
 <section class="hero">
