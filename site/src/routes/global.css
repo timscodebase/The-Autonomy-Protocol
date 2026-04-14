@@ -124,13 +124,13 @@ ol {
 }
 
 @media (max-width: 600px) {
-	.hero {
-		/*min-height: 35svh;*/
+	/* .hero {
+		min-height: 35svh;
 
 		div {
 			padding: var(--gap-1);
 		}
-	}
+	} */
 
 	.columns {
 		--column-count: 1 !important;
