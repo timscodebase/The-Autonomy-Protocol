@@ -43,8 +43,9 @@
 				your mistakes, and keep moving forward.
 			</p>
 			<p><strong>Turn "I messed up" into "I fixed it."</strong></p>
+
+            <h5>Phase 1: Realization and Surrender</h5>
 			<ol>
-				<h5>Phase 1: Realization and Surrender</h5>
 				<li>
 					<strong>Honesty:</strong> Acknowledge that the current situation is out of control
 					and that current methods of managing it are no longer working.
@@ -57,7 +58,9 @@
 					<strong>Commitment:</strong> Decide to trust a higher principle, a structured
 					process, or a collective wisdom rather than relying solely on self-will.
 				</li>
-				<h5>Phase 2: Self-Analysis and Accountability</h5>
+            </ol>
+            <h5>Phase 2: Self-Analysis and Accountability</h5>
+            <ol start="3">
 				<li>
 					<strong>Inventory:</strong> Conduct a rigorous, objective assessment of one's
 					own character, behaviors, and past actions.
