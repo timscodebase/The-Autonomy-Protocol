@@ -8,14 +8,14 @@
 </script>
 
 <svelte:head>
-    <title>The Autonomy Protocol</title>
-    <meta
-        name="description"
-        content="Stop letting drama and stress run the show. Learn the 'Life Skills' you actually need to be your own boss."
-    />
-    <link rel="manifest" href="/manifest.json" crossorigin="use-credentials" />
-    <meta name="theme-color" content="#fdd505" />
-    <link rel="icon" href={favicon} />
+	<title>The Autonomy Protocol</title>
+	<meta
+		name="description"
+		content="Stop letting drama and stress run the show. Learn the 'Life Skills' you actually need to be your own boss."
+	/>
+	<link rel="manifest" href="/manifest.json" crossorigin="use-credentials" />
+	<meta name="theme-color" content="#fdd505" />
+	<link rel="icon" href={favicon} />
 </svelte:head>
 
 <div class="layout-wrapper">

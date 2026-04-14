@@ -1,5 +1,5 @@
 <script lang="ts">
-	import toast, { Toaster } from 'svelte-french-toast';
+	import toast, { Toaster } from 'svelte-french-toast'
 	import HeroImage from '$images/img-1.jpg?enhanced&w=400;800;1600;2400'
 	import {
 		User,
@@ -22,34 +22,34 @@
 	// contact/+page.svelte
 
 	const handleSubmit = async (e: Event) => {
-		e.preventDefault();
+		e.preventDefault()
 
 		// Use Formspree's endpoint (or a similar service like Getform.io)
-		// You can replace 'YOUR_FORM_ID' with the ID you get after signing up, 
+		// You can replace 'YOUR_FORM_ID' with the ID you get after signing up,
 		// or use the email directly for a quick test (though ID is better for spam)
-		const endpoint = "https://formspree.io/f/mdkdqygd";
+		const endpoint = 'https://formspree.io/f/mdkdqygd'
 
 		try {
 			const response = await fetch(endpoint, {
 				method: 'POST',
 				headers: {
 					'Content-Type': 'application/json',
-					'Accept': 'application/json'
+					Accept: 'application/json'
 				},
 				body: JSON.stringify($state.snapshot(formData))
-			});
+			})
 
 			if (response.ok) {
-				toast.success('Message sent successfully!');
-				formData = createInitialState();
+				toast.success('Message sent successfully!')
+				formData = createInitialState()
 			} else {
-				toast.error("Oops! There was a problem submitting your form.");
+				toast.error('Oops! There was a problem submitting your form.')
 			}
 		} catch (error) {
-			console.error("Submission error:", error);
-			toast.error("Failed to send message. Please check your connection.");
+			console.error('Submission error:', error)
+			toast.error('Failed to send message. Please check your connection.')
 		}
-	};
+	}
 </script>
 
 <Toaster />

@@ -19,9 +19,9 @@
 <section class="content">
 	<h2>Our Mission</h2>
 	<p>
-		Our goal is simple: to make sure every student graduate with the skills to
-		handle life on their own. We believe that when you learn to govern yourself, you
-		don't need anyone else to police you.
+		Our goal is simple: to make sure every student graduate with the skills to handle
+		life on their own. We believe that when you learn to govern yourself, you don't
+		need anyone else to police you.
 	</p>
 </section>
 
@@ -116,8 +116,11 @@
 
 	<h3>The Architect</h3>
 	<p>
-		The Autonomy Protocol was created by Tim Smith, who has spent many year in the rooms of 12 step programs improving himself and repairng his past. He realized that the same logic used to himself clean and sober from drugs and alcohol can be used to help student run their own lives better. Does this
-		"translated" version feel like it hits the right note for a student who might be
-		skeptical of a new school program?
+		<strong>The Autonomy Protocol</strong> was created by
+		<a href="https://www.tim-smith-solutions.tech/" target="_blank">Tim Smith</a>,
+		who has spent many years in the rooms of 12 step programs improving himself and
+		repairng his past. He realized that the same logic used to keep himself clean and
+		sober from drugs and alcohol can be used to help students better manage their
+		lives.
 	</p>
 </section>
