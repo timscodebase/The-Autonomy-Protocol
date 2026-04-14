@@ -1,6 +1,6 @@
 <script lang="ts">
 	import favicon from '$lib/assets/favicon.svg'
-	import OgImage from '$images/og-img?enhanced&w=400;800;1600;2400'
+	import OgImage from '$images/og-img.png?enhanced&w=400;800;1600;2400'
 	import './global.css'
 
 	import { Banner, Footer, Header } from '$components'
