@@ -19,7 +19,7 @@
 	<meta property="og:title" content="The Autonomy Protocol" />
 	<meta property="og:type" content="image/png" />
 	<meta property="og:url" content="https://the-autonomy-protocol.vercel.app/" />
-	<meta property="og:image" content="/og-img.png" />
+	<meta property="og:image" content="%sveltekit.assets%/og-img.png" />
 </svelte:head>
 
 <div class="layout-wrapper">
