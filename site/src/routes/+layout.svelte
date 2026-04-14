@@ -1,5 +1,6 @@
 <script lang="ts">
 	import favicon from '$lib/assets/favicon.svg'
+	import OgImage from '$images/og-img?enhanced&w=400;800;1600;2400'
 	import './global.css'
 
 	import { Banner, Footer, Header } from '$components'
@@ -16,6 +17,10 @@
 	<link rel="manifest" href="/manifest.json" crossorigin="use-credentials" />
 	<meta name="theme-color" content="#fdd505" />
 	<link rel="icon" href={favicon} />
+	<meta property="og:title" content="The Autonomy Protocol" />
+	<meta property="og:type" content="image/png" />
+	<meta property="og:url" content="https://the-autonomy-protocol.vercel.app/" />
+	<meta property="og:image" content={OgImage} />
 </svelte:head>
 
 <div class="layout-wrapper">
