@@ -1,6 +1,6 @@
 <script lang="ts">
 	import toast, { Toaster } from 'svelte-french-toast'
-	import HeroImage from '$images/img-1.jpg?enhanced&w=400;800;1600;2400'
+	import HeroImage from '$images/pic-3.jpg?enhanced&w=400;800;1600;2400'
 	import {
 		User,
 		Mail,

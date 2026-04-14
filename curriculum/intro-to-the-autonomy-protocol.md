@@ -38,8 +38,8 @@ What is the specific, observable change this module intends to produce?
 
 ### 2. Core Delivery (15-20 mins)
 **Objective:** Present the technical mechanics of the module.
-* **Key Point A: The Internal Audit (Steps 4–7):** Conduct a **Master Log** to identify assets and liabilities (identifying "bugs" like resentment or dishonesty).
-* **Key Point B: External Repair (Steps 8–9):** Restore "System Trust" through the **Amends Protocol**—action-based corrections to fix broken social friction.
+* **Key Point A: The Internal Audit (Steps 4-7):** Conduct a **Master Log** to identify assets and liabilities (identifying "bugs" like resentment or dishonesty).
+* **Key Point B: External Repair (Steps 8-9):** Restore "System Trust" through the **Amends Protocol**—action-based corrections to fix broken social friction.
 * **Instructional Note:** Focus on **Readiness Assessment**; accepting that identified "bugs" are counterproductive to objective goals.
 
 ### 3. The Practicum / Lab Exercise (20 mins)
