@@ -1,6 +1,6 @@
 <script lang="ts">
 	import HeroImage from '$images/pic-6.jpg?enhanced&w=400;800;1600;2400'
-	import { Banner } from '$components/Banner.svelte'
+	import { Banner } from '$components'
 </script>
 
 <section class="hero">
