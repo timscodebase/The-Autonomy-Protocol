@@ -113,6 +113,15 @@ ol {
 	}
 }
 
+.columns {
+	--column-count: 2;
+	column-count: var(--column-count);
+	/* column-width: 8em; */
+	/* widows: 3; */
+	/* orphans: 3; */
+	gap: var(--gap-1);
+}
+
 @media (max-width: 600px) {
 	.hero {
 		/*min-height: 35svh;*/
@@ -120,6 +129,10 @@ ol {
 		div {
 			padding: var(--gap-1);
 		}
+	}
+
+	.columns {
+		--column-count: 1 !important;
 	}
 }
 

@@ -116,11 +116,18 @@
 
 	<h3>The Architect</h3>
 	<p>
-		<strong>The Autonomy Protocol</strong> was created by
-		<a href="https://www.tim-smith-solutions.tech/" target="_blank">Tim Smith</a>,
-		who has spent many years in the rooms of 12 step programs improving himself and
-		repairng his past. He realized that the same logic used to keep himself clean and
-		sober from drugs and alcohol can be used to help students better manage their
-		lives.
+		<strong>The Autonomy Protocol</strong> was architected by
+		<a href="https://www.tim-smith-solutions.tech/" target="_blank">Tim Smith</a>, a
+		professional who has dedicated years to the rigorous discipline of 12-step
+		programs to achieve personal transformation and reconcile his past. Through this
+		journey of sustained recovery, he recognized a profound parallel: the same
+		cognitive frameworks and accountability structures used to maintain sobriety from
+		substances are exceptionally effective tools for student empowerment. By adapting
+		these battle-tested principles of self-regulation and intentionality, Smith has
+		developed a methodology that helps students navigate academic pressures and
+		social complexities with newfound clarity. The protocol shifts the focus from
+		external compliance to internal mastery, teaching students how to manage their
+		lives with the same precision and resilience required for long-term personal
+		success.
 	</p>
 </section>

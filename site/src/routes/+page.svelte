@@ -35,8 +35,8 @@
 		into two main parts:
 	</p>
 
-	<div class="flex">
-		<div>
+	<section class="content">
+		<div class="columns">
 			<h4>The Accountability Cycle</h4>
 			<p>
 				<strong>How You Handle Yourself:</strong> A 12-step way to check your head, fix
@@ -44,7 +44,7 @@
 			</p>
 			<p><strong>Turn "I messed up" into "I fixed it."</strong></p>
 
-            <h5>Phase 1: Realization and Surrender</h5>
+			<h5>Phase 1: Realization and Surrender</h5>
 			<ol>
 				<li>
 					<strong>Honesty:</strong> Acknowledge that the current situation is out of control
@@ -58,9 +58,9 @@
 					<strong>Commitment:</strong> Decide to trust a higher principle, a structured
 					process, or a collective wisdom rather than relying solely on self-will.
 				</li>
-            </ol>
-            <h5>Phase 2: Self-Analysis and Accountability</h5>
-            <ol start="4">
+			</ol>
+			<h5>Phase 2: Self-Analysis and Accountability</h5>
+			<ol start="4">
 				<li>
 					<strong>Inventory:</strong> Conduct a rigorous, objective assessment of one's
 					own character, behaviors, and past actions.
@@ -77,9 +77,9 @@
 					<strong>Request:</strong> Actively seek the strength or discipline required to
 					change these deep-seated flaws.
 				</li>
-             </ol>
-				<h5>Phase 3: Restitution and Integration</h5>
-            <ol start="8">
+			</ol>
+			<h5>Phase 3: Restitution and Integration</h5>
+			<ol start="8">
 				<li>
 					<strong>Responsibility:</strong> Identify every individual who has been negatively
 					impacted by your past actions and commit to fixing those relationships.
@@ -88,9 +88,9 @@
 					<strong>Amends:</strong> Take direct action to repair the harm caused, prioritizing
 					the safety and well-being of the other party above your own comfort.
 				</li>
-             </ol>
-				<h5>Phase 4: Maintenance and Growth</h5>
-             <ol start="10">
+			</ol>
+			<h5>Phase 4: Maintenance and Growth</h5>
+			<ol start="10">
 				<li>
 					<strong>Vigilance:</strong> Maintain a habit of continuous self-reflection, quickly
 					identifying and correcting new mistakes as they occur.
@@ -105,7 +105,7 @@
 				</li>
 			</ol>
 		</div>
-		<div>
+		<div class="columns">
 			<h4>The Integrity Shield</h4>
 			<p>
 				<strong>How You Handle Others:</strong> 4 simple agreements to stop drama before
@@ -113,14 +113,52 @@
 			</p>
 			<p><strong>Block the noise and stay focused.</strong></p>
 			<ol>
-				<li><strong>Be impecable with your word:</strong> Do what you say, and say what you do.  When we go against out own word or lie, we are only harming and going against ourselves. Being impecable with our word, having integraty, is not easy, but it the most important agreement we can make with ourselves.</li>
-				<li><strong>Don't take anything/anyone personaly:</strong> Humans, especialy in our formitive years, like to think that eveything is about them. "Someone does not like me. It must be because I am unlikable." "Someone is mean to me. It me be because of something I did to them."  No matter what anyone does to us, 
-it is not about us, it is about them. Hurt people hurt people.  We can not take it personaly.  We can only have compassion for those that hurt us. We are the only ones responsible for our feelings.</li>
-<li><strong>Don't make any assumptions:</strong></li>
-				<li><strong>Always do your best: </strong></li>
+				<li>
+					<strong>Be impecable with your word:</strong> Do what you say, and say what you
+					do. When we go against out own word or lie, we are only harming and going against
+					ourselves. Being impecable with our word, having integraty, is not easy, but
+					it the most important agreement we can make with ourselves.
+				</li>
+				<li>
+					<strong>Don't take anything/anyone personaly:</strong> Humans, especialy in our
+					formitive years, like to think that eveything is about them. "Someone does not
+					like me. It must be because I am unlikable." "Someone is mean to me. It me be
+					because of something I did to them." No matter what anyone does to us, it is
+					not about us, it is about them. Hurt people hurt people. We can not take it personaly.
+					We can only have compassion for those that hurt us. We are the only ones responsible
+					for our feelings.
+				</li>
+				<li>
+					<strong
+						>Don't make any assumptions: Whether you are a freshman navigating an
+						intimidating new campus culture or a senior bracing for the ambiguous
+						post-graduation leap, refusing to make assumptions is your strongest
+						defense against unnecessary drama. Instead of inventing anxious
+						narratives about what your peers think or what your teachers expect, you
+						must courageously ask direct questions to find the truth. This proactive
+						communication cuts through the noise of high school rumors and clears up
+						academic confusion before it spirals. Ultimately, by seeking clarity
+						rather than relying on guesswork, you actively protect your peace of mind
+						and build genuine, reality-based relationships.</strong
+					>
+				</li>
+				<li>
+					<strong
+						>Always do your best: Concurrently, agreeing to always do your best
+						demands the mature realization that your actual capacity will change from
+						day to day. Your highest level of performance on a well-rested morning
+						will look vastly different from your best when you are battling burnout,
+						daily academic stress, or low physical energy. The key is extending
+						yourself grace on the days you operate at a deficit while remaining
+						fiercely committed to your personal and academic growth. By dropping the
+						pursuit of flawless perfection and focusing simply on consistent effort,
+						you will cultivate the emotional resilience necessary to thrive through
+						high school and beyond.</strong
+					>
+				</li>
 			</ol>
 		</div>
-	</div>
+	</section>
 </section>
 
 <section class="content">
