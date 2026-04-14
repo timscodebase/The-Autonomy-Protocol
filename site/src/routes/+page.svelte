@@ -130,7 +130,7 @@
 				</li>
 				<li>
 					<strong
-						>Don't make any assumptions: Whether you are a freshman navigating an
+						>Don't make any assumptions:</strong> Whether you are a freshman navigating an
 						intimidating new campus culture or a senior bracing for the ambiguous
 						post-graduation leap, refusing to make assumptions is your strongest
 						defense against unnecessary drama. Instead of inventing anxious
@@ -139,12 +139,11 @@
 						communication cuts through the noise of high school rumors and clears up
 						academic confusion before it spirals. Ultimately, by seeking clarity
 						rather than relying on guesswork, you actively protect your peace of mind
-						and build genuine, reality-based relationships.</strong
-					>
+						and build genuine, reality-based relationships.
 				</li>
 				<li>
 					<strong
-						>Always do your best: Concurrently, agreeing to always do your best
+						>Always do your best:</strong>Concurrently, agreeing to always do your best
 						demands the mature realization that your actual capacity will change from
 						day to day. Your highest level of performance on a well-rested morning
 						will look vastly different from your best when you are battling burnout,
@@ -153,8 +152,7 @@
 						fiercely committed to your personal and academic growth. By dropping the
 						pursuit of flawless perfection and focusing simply on consistent effort,
 						you will cultivate the emotional resilience necessary to thrive through
-						high school and beyond.</strong
-					>
+						high school and beyond.
 				</li>
 			</ol>
 		</div>
