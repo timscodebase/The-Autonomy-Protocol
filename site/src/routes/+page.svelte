@@ -114,29 +114,4 @@
 			<p><strong>Block the noise and stay focused.</strong></p>
 			<ol>
 				<li><strong>Be impecable with your word:</strong> Do what you say, and say what you do.  When we go against out own word or lie, we are only harming and going against ourselves. Being impecable with our word, having integraty, is not easy, but it the most important agreement we can make with ourselves.</li>
-				<li><strong>Don't take anything/anyone personaly:</strong> Humans, especialy in our formitive years, like to think that eveything is about us. "Someone does not like me. It must be because I am unlikable." "Someone is mean to me. It me be because of something I did to them."  No matter what anyone does to us, it is not about us, it is about them. Hurt people hurt people.  We can not take it personaly.  We can only have compassion for those that hurt us. We are responible for our feelings, others are not.</li>
-				<li><strong>Don't make any assumptions:</strong></li>
-				<li><strong>Always do your best:</strong></li>
-			</ol>
-		</div>
-	</div>
-</section>
-
-<section class="content">
-	<h2>The High School Roadmap</h2>
-
-	<ol>
-		<li>
-			<strong>Freshman (The Setup):</strong> Learning what you can actually control (hint:
-			it's not other people) and how to be honest with yourself.
-		</li>
-		<li>
-			<strong>Sophomore/Junior (The Practice):</strong> Using these tools in class, in
-			sports, and with your friends.
-		</li>
-		<li>
-			<strong>Senior (The Pro Level):</strong> Taking these skills into the "real world"—whether
-			you're headed to college, a tech job, a hospital, or a job site.
-		</li>
-	</ol>
-</section>
+				<li><strong>Don't take anything/anyone personaly:</strong> Humans, especialy in our formitive years, like to think that eveything is about us. "Someone does not like me. It must be because I am unlikable." "Someone is mean to me. It me be because of something I did to them."  No matter what anyone does to us, it is not about us, it is about them. Hurt people hurt people.  We can not take it personaly.  We can only have compassion for those that hurt us. We are the only ones responsible for our feelings.<
