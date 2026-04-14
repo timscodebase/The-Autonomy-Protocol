@@ -77,7 +77,9 @@
 					<strong>Request:</strong> Actively seek the strength or discipline required to
 					change these deep-seated flaws.
 				</li>
+             </ol>
 				<h5>Phase 3: Restitution and Integration</h5>
+            <ol start="8">
 				<li>
 					<strong>Responsibility:</strong> Identify every individual who has been negatively
 					impacted by one's past actions and commit to fixing those relationships.
@@ -86,7 +88,9 @@
 					<strong>Amends:</strong> Take direct action to repair the harm caused, prioritizing
 					the safety and well-being of the other party above one's own comfort.
 				</li>
+             </ol>
 				<h5>Phase 4: Maintenance and Growth</h5>
+             <ol start="10">
 				<li>
 					<strong>Vigilance:</strong> Maintain a habit of continuous self-reflection, quickly
 					identifying and correcting new mistakes as they occur.
