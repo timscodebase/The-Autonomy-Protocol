@@ -67,7 +67,7 @@
 				</li>
 				<li>
 					<strong>Confession:</strong> Verbally acknowledge these findings to oneself and
-					at least one other person to break the cycle of secrecy.
+					at least one other trusted person or mentor to break the cycle of secrecy.
 				</li>
 				<li>
 					<strong>Readiness:</strong> Become mentally and emotionally prepared to let go
@@ -82,7 +82,7 @@
             <ol start="8">
 				<li>
 					<strong>Responsibility:</strong> Identify every individual who has been negatively
-					impacted by one's past actions and commit to fixing those relationships.
+					impacted by your past actions and commit to fixing those relationships.
 				</li>
 				<li>
 					<strong>Amends:</strong> Take direct action to repair the harm caused, prioritizing
