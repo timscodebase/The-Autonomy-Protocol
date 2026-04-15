@@ -155,7 +155,7 @@
 		gap: 0.5rem;
 		font-family: 'Poppins', sans-serif;
 		font-weight: 500;
-		color: var(--accent-1);
+		color: var(--brand-blue);
 	}
 
 	input,
@@ -172,7 +172,7 @@
 	input:focus,
 	textarea:focus {
 		outline: none;
-		border-color: var(--accent-2);
+		border-color: var(--brand-orange);
 	}
 
 	.segmented-control {
@@ -215,7 +215,7 @@
 		left: 4px;
 		height: calc(100% - 8px);
 		width: calc(50% - 4px);
-		background-color: var(--accent-1); /* Yellow from your global.css */
+		background-color: var(--brand-blue); /* Yellow from your global.css */
 		border-radius: 4px;
 		z-index: 1;
 		transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -223,7 +223,7 @@
 
 	.glider.shifted {
 		transform: translateX(100%);
-		background-color: var(--accent-2); /* Changes to Pink when "Offering Help" */
+		background-color: var(--brand-orange); /* Changes to Pink when "Offering Help" */
 	}
 
 	@media (max-width: 480px) {
@@ -240,7 +240,7 @@
 	}
 
 	.submit-btn {
-		background: var(--accent-1);
+		background: var(--brand-blue);
 		color: var(--black-80);
 		border: none;
 		padding: 1rem;

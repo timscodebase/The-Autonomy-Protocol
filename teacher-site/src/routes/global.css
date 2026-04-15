@@ -30,17 +30,26 @@
     --bg: var(--black-80);
     --fg: var(--white);
 
-    --gap-1: 1rem;
-    --gap-2: calc(var(--gap-1) * 2);
+	--gap-1: 1rem;
+	--gap-2: calc(var(--gap-1) * 2);
+
+	--brand-blue: var(--accent-1);
+	--brand-orange: var(--accent-2);
+	
+	/* Semantic Assignments */
+	--text-link: var(--brand-blue);
+	--text-link-hover: var(--brand-orange);
+	--text-heading: var(--brand-blue);
+	--text-heading-alt: var(--brand-orange);
+	--ui-border: var(--black-40);
 }
 
 @media (color-gamut: p3) {
-    :root {
-        /* Improved P3: Pushed Chroma (C) for vibrancy while locking the higher Lightness (L) */
-        --accent-1: oklch(80% 0.18 255);
-        --accent-2: oklch(78% 0.22 45);
-        --accent-3: oklch(82% 0.16 190);
-    }
+	:root {
+		--brand-blue: oklch(70.598% 0.24 254.418);
+        --brand-orange: oklch(73.322% 0.21 45.631);
+        --accent-3: oklch(77.873% 0.16 189.945);
+	}
 }
 
 
@@ -60,11 +69,11 @@ body {
 }
 
 a {
-	color: var(--accent-1);
+	color: var(--text-link);
 	text-decoration: none;
 
 	&:hover {
-		color: var(--accent-2);
+		color: var(--text-link-hover);
 		text-decoration: underline;
 	}
 }
@@ -75,16 +84,16 @@ h3,
 h4,
 h5,
 h6 {
-	color: var(--accent-1);
+	color: var(--text-heading);
 	font-family: 'Poppins', sans-serif;
 	font-weight: bold;
 }
 
 h1 {
-	color: var(--accent-2);
+	color: var(--text-heading-alt);
 }
 
-h3,
+h3
 h4,
 h5,
 h6 {
@@ -92,7 +101,7 @@ h6 {
 }
 
 strong {
-	color: var(--accent-2);
+	color: var(--brand-orange);
 }
 
 /* ul,
@@ -154,7 +163,7 @@ ol {
 .content {
 	margin: 3rem 0;
 	padding-bottom: 2rem;
-	border-bottom: 2px solid var(--accent-1);
+	border-bottom: 2px solid var(--brand-blue);
 
 	&:last-of-type {
 		border-bottom: none !important;

@@ -9,9 +9,9 @@
 <style>
 	.pill {
 		border-radius: 100px;
-		color: var(--accent-1);
-		background-color: rgb(from var(--accent-2) r g b / 0.25);
-		border: 1px solid var(--accent-2);
+		color: var(--brand-blue);
+		background-color: rgb(from var(--brand-orange) r g b / 0.25);
+		border: 1px solid var(--brand-orange);
 		padding: 0.25rem 0.75rem;
 		font-size: 10px;
 		font-family: 'Poppins', sans-serif;

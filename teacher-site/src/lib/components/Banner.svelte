@@ -27,9 +27,9 @@
 <style>
 	:global(.banner) {
 		position: relative;
-		color: var(--accent-1);
-		background: rgb(from var(--accent-1) r g b / 0.25);
-		border: 1px solid var(--accent-1);
+		color: var(--brand-blue);
+		background: rgb(from var(--brand-blue) r g b / 0.25);
+		border: 1px solid var(--brand-blue);
 		border-radius: var(--gap-1);
 		padding: 10px var(--gap-1);
 		margin-bottom: var(--gap-2);
@@ -41,7 +41,7 @@
 			right: 5px;
 			background: none;
 			border: none;
-			color: var(--accent-1);
+			color: var(--brand-blue);
 			font-size: 1.25rem;
 			cursor: pointer;
 		}
