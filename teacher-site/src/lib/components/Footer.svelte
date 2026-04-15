@@ -6,7 +6,7 @@
 	footer {
 		display: grid;
 		place-items: center;
-		background-color: var(--blue-80);
+		background-color: var(--surface-1);
 		padding: var(--gap-1);
 		border: 1px solid var(--accent-2);
 	}

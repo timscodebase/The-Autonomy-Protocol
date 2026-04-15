@@ -160,8 +160,8 @@
 
 	input,
 	textarea {
-		background: var(--blue-60);
-		border: 1px solid var(--blue-40);
+		background: var(--surface-2);
+		border: 1px solid var(--surface-3);
 		color: var(--white);
 		padding: 0.8rem;
 		border-radius: 4px;
@@ -178,8 +178,8 @@
 	.segmented-control {
 		position: relative;
 		display: flex;
-		background-color: var(--blue-60);
-		border: 1px solid var(--blue-40);
+		background-color: var(--surface-2);
+		border: 1px solid var(--surface-3);
 		padding: 4px;
 		border-radius: 8px;
 		width: 100%;
@@ -197,7 +197,7 @@
 		padding: 0.8rem;
 		border: none;
 		background: none;
-		color: var(--blue-20); /* Dimmed color for inactive */
+		color: var(--surface-5);
 		font-family: 'Poppins', sans-serif;
 		font-weight: 500;
 		cursor: pointer;
@@ -205,9 +205,7 @@
 	}
 
 	.control-option.active {
-		color: var(
-			--blue-80
-		); /* Dark text for contrast against the yellow/pink slider */
+		color: var(--surface-1);
 	}
 
 	/* The sliding highlight */
@@ -243,7 +241,7 @@
 
 	.submit-btn {
 		background: var(--accent-1);
-		color: var(--blue-80);
+		color: var(--black-80);
 		border: none;
 		padding: 1rem;
 		font-family: 'Poppins', sans-serif;

@@ -56,7 +56,7 @@
 		display: grid;
 		padding: clamp(1rem, 2.75svw, 2rem);
 		grid-template-rows: auto 1fr auto;
-		background-color: var(--black-50);
+		background-color: var(--surface-3);
 		box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.5);
 	}
 </style>
