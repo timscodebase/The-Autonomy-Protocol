@@ -8,6 +8,7 @@
 
 <style>
 	.pill {
+        max-hieght: fit-content;
 		border-radius: 100px;
 		color: var(--brand-blue);
 		background-color: rgb(from var(--brand-orange) r g b / 0.25);
