@@ -16,7 +16,7 @@
 	--black: oklch(0% 0 0);
     --white: oklch(90% 0 0);
 
-	--accent-1: oklch(70.598% 0.12772 254.418);
+	--accent-1: oklch(61.465% 0.15513 255.094);
     --accent-2: oklch(73.322% 0.11412 45.631);
     --accent-3: oklch(77.873% 0.08646 189.945);
 
@@ -35,10 +35,9 @@
 
 @media (color-gamut: p3) {
 	:root {
-
-		--accent: oklch(90% 0.22 95);
-		--accent-2: oklch(68% 0.32 5);
-		--accent-3: oklch(78% 0.18 190);
+		--accent-1: oklch(70.598% 0.24 254.418);
+        --accent-2: oklch(73.322% 0.21 45.631);
+        --accent-3: oklch(77.873% 0.16 189.945);
 	}
 }
 
