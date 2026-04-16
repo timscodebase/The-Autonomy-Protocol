@@ -16,11 +16,12 @@
   --accent-2: oklch(78% 0.15 45);
   --accent-3: oklch(82% 0.11 190);
 
-  /* Semantic Variables (Dark) */
+  /* Semantic Variables (Dark Baseline) */
   --bg: var(--black-80);
   --fg: var(--white);
   --surface-1: var(--black-80);
   --surface-2: var(--black-60);
+  --surface-3: var(--black-50);
   --ui-border: var(--black-40);
 
   --brand-blue: var(--accent-1);
@@ -34,7 +35,7 @@
   --gap-2: calc(var(--gap-1) * 2);
 }
 
-/* Force Light Mode Overrides */
+/* --- Light Mode Overrides --- */
 :root[data-theme="light"] {
   color-scheme: light;
   
@@ -43,9 +44,10 @@
 
   --surface-1: oklch(98% 0 0);
   --surface-2: oklch(80% 0.01 0);
+  --surface-3: oklch(88% 0.01 0);
   --ui-border: oklch(70% 0.01 0);
 
-  /* Deepen colors for contrast on white */
+  /* Deepened Accents for Light Background Readability */
   --brand-blue: oklch(50% 0.18 255);   
   --brand-orange: oklch(55% 0.22 45);  
   --accent-3: oklch(50% 0.14 195);
@@ -54,7 +56,7 @@
   --text-heading-alt: var(--brand-orange);
 }
 
-/* P3 Gamut Logic */
+/* --- P3 Gamut Logic --- */
 @media (color-gamut: p3) {
   :root {
     --brand-blue: oklch(72% 0.28 254);
@@ -69,30 +71,38 @@
   }
 }
 
-/* Base Styles */
-*, *::before, *::after { box-sizing: border-box; }
+/* --- Base Styles --- */
+*, *::before, *::after { 
+  box-sizing: border-box; 
+}
 
 body {
   background-color: var(--bg);
   color: var(--fg);
   font-family: 'Inter', sans-serif;
   margin: 0;
-  transition: background-color 0.2s ease;
+  /* Smooth transition for theme switching */
+  transition: background-color 0.2s ease, color 0.2s ease;
 }
 
 h1, h2, h3, h4, h5, h6 {
   color: var(--text-heading);
   font-family: 'Poppins', sans-serif;
+  margin-top: 0;
 }
 
-h1 { color: var(--text-heading-alt); }
+h1 { 
+  color: var(--text-heading-alt); 
+}
 
-/* Fixed the comma here */
-h3, h4, h5, h6 { color: var(--accent-3); }
+h3, h4, h5, h6 { 
+  color: var(--accent-3); 
+}
 
 a {
   color: var(--text-link);
   text-decoration: none;
+  transition: color 0.2s ease;
 }
 
 a:hover {
@@ -100,7 +110,11 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Hero & Layout */
+strong { 
+  color: var(--brand-orange); 
+}
+
+/* --- Layout Classes --- */
 .hero {
   display: grid;
   place-items: center;
@@ -110,7 +124,11 @@ a:hover {
   padding: var(--gap-1);
 }
 
-.hero div { max-width: 600px; text-align: center; z-index: 2; }
+.hero div { 
+  max-width: 600px; 
+  text-align: center; 
+  z-index: 2; 
+}
 
 .hero-image {
   position: absolute;
@@ -122,46 +140,40 @@ a:hover {
   filter: opacity(0.3);
 }
 
-
 .columns {
-	--column-count: 2;
-	column-count: var(--column-count);
-	/* column-width: 8em; */
-	/* widows: 3; */
-	/* orphans: 3; */
-	gap: var(--gap-2);
+  --column-count: 2;
+  column-count: var(--column-count);
+  gap: var(--gap-2);
 }
 
 @media (max-width: 600px) {
-	/* .hero {
-		min-height: 35svh;
-
-		div {
-			padding: var(--gap-1);
-		}
-	} */
-
-	.columns {
-		--column-count: 1 !important;
-	}
+  .columns {
+    --column-count: 1 !important;
+  }
 }
 
 .content {
-	margin: 3rem 0;
-	padding-bottom: 2rem;
-	border-bottom: 2px solid var(--brand-blue);
+  margin: 3rem 0;
+  padding-bottom: 2rem;
+  border-bottom: 2px solid var(--brand-blue);
+}
 
-	&:last-of-type {
-		border-bottom: none !important;
-	}
+/* Ensure content sections remain visible in light mode */
+[data-theme="light"] .content {
+    background-color: var(--surface-1);
+    border-color: var(--ui-border);
+}
+
+.content:last-of-type { 
+  border-bottom: none !important; 
 }
 
 .flex {
-	display: flex;
-	gap: var(--gap-2);
-	flex-wrap: wrap;
+  display: flex;
+  gap: var(--gap-2);
+  flex-wrap: wrap;
 }
 
-.flex > div {
-	flex: 1 1 300px;
+.flex > div { 
+  flex: 1 1 300px; 
 }
