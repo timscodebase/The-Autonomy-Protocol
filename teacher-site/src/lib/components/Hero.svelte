@@ -26,6 +26,12 @@
 		border: 2px solid var(--brand-orange);
 		border-radius: var(--border-radius);
 
+		:global(picture) {
+			position: absolute;
+			inset: 0;
+			z-index: 1;
+		}
+
 		div {
 			max-width: 600px;
 			text-align: center;
@@ -34,12 +40,9 @@
 	}
 
 	.hero-image {
-		position: absolute;
-		inset: 0;
 		width: 100%;
 		height: 100%;
 		object-fit: cover;
-		z-index: 1;
 		filter: opacity(0.3);
 	}
 </style>
