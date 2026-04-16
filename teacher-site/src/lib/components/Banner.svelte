@@ -46,8 +46,4 @@
 			cursor: pointer;
 		}
 	}
-
-	:global(.banner a) {
-		color: white;
-	}
 </style>
