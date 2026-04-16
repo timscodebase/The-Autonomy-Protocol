@@ -21,7 +21,7 @@
         background: none;
         border: none;
         outline: none;
-        color: var(--fg);
+        color: var(--brand-blue);
         cursor: pointer;
     }
 </style>
