@@ -160,7 +160,7 @@
 	textarea {
 		background: var(--surface-1);
 		border: 1px solid var(--surface-3);
-		color: var(--white);
+		color: var(--text-form);
 		padding: 0.8rem;
 		border-radius: 4px;
 		font-family: inherit;
