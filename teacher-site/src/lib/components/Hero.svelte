@@ -21,7 +21,6 @@
 		display: grid;
 		grid-template-areas: "stack";
 		min-height: 40svh;
-        max-height: 60svh;
 		overflow: hidden;
 		border: 2px solid var(--brand-orange);
 		border-radius: var(--border-radius);
