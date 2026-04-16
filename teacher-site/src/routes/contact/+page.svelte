@@ -170,14 +170,14 @@
 	input:focus,
 	textarea:focus {
 		outline: none;
-		border-color: var(--brand-orange);
+		border: 2px solid var(--brand-orange);
 	}
 
 	.segmented-control {
 		position: relative;
 		display: flex;
 		background-color: var(--surface-2);
-		border: 1px solid var(--surface-3);
+		border: 2px solid var(--surface-3);
 		padding: 4px;
 		border-radius: 8px;
 		width: 100%;
