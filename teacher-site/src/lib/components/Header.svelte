@@ -2,7 +2,7 @@
 	import Logo from './Logo.svelte'
 	import Nav from './Nav.svelte'
 	import Pill from './Pill.svelte'
-    import ThemeToggle from './ThemeToggle';
+    import ThemeToggle from './ThemeToggle.svelte';
 </script>
 
 <header>
