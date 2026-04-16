@@ -19,8 +19,6 @@
 
 	let formData = $state(createInitialState())
 
-	// contact/+page.svelte
-
 	const handleSubmit = async (e: Event) => {
 		e.preventDefault()
 
@@ -160,7 +158,7 @@
 
 	input,
 	textarea {
-		background: var(--surface-2);
+		background: var(--surface-1);
 		border: 1px solid var(--surface-3);
 		color: var(--white);
 		padding: 0.8rem;
