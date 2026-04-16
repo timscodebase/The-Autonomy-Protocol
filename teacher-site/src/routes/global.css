@@ -53,6 +53,7 @@
   --brand-orange: oklch(55% 0.22 45);  
   --accent-3: oklch(50% 0.14 195);
 
+  --text-link: var(--black-80);
   --text-form: var(--black-80);
   --text-heading: var(--brand-blue);
   --text-heading-alt: var(--brand-orange);
