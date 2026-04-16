@@ -1,20 +1,12 @@
 <script lang="ts">
+	import { Hero } from '$components'
 	import HeroImage from '$images/pic-2.jpg?enhanced&w=400;800;1600;2400'
 </script>
 
-<div class="hero">
-	<enhanced:img
-		src={HeroImage}
-		sizes="(min-width: 800px) 800px, 100vw"
-		alt=""
-		aria-hidden="true"
-		class="hero-image"
-	/>
-	<div>
-		<h1>About Us</h1>
-		<p>Why This Matters</p>
-	</div>
-</div>
+<Hero {HeroImage}>
+	<h1>About Us</h1>
+	<p>Why This Matters</p>
+</Hero>
 
 <section class="content">
 	<h2>Our Mission</h2>

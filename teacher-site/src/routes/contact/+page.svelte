@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { Hero } from '$components'
 	import toast, { Toaster } from 'svelte-french-toast'
 	import HeroImage from '$images/pic-3.jpg?enhanced&w=400;800;1600;2400'
 	import {
@@ -51,23 +52,15 @@
 </script>
 
 <Toaster />
-<section class="hero">
-	<enhanced:img
-		src={HeroImage}
-		sizes="(min-width: 800px) 800px, 100vw"
-		alt=""
-		aria-hidden="true"
-		class="hero-image"
-	/>
-	<div>
-		<h1>Contact Us</h1>
-		<p>
-			Have questions or want to learn more about the Autonomy Protocol? Reach out to
-			us! We're here to help you take charge of your own life and start governing
-			yourself.
-		</p>
-	</div>
-</section>
+
+<Hero {HeroImage}>
+	<h1>Contact Us</h1>
+	<p>
+		Have questions or want to learn more about the Autonomy Protocol? Reach out to
+		us! We're here to help you take charge of your own life and start governing
+		yourself.
+	</p>
+</Hero>
 
 <section class="content">
 	<form onsubmit={handleSubmit} class="contact-form">
@@ -162,7 +155,7 @@
 		border: 1px solid var(--surface-3);
 		color: var(--text-form);
 		padding: 0.8rem;
-		border-radius: 4px;
+		border-radius: var(--border-radius);
 		font-family: inherit;
 		transition: border-color 0.2s;
 	}
@@ -179,7 +172,7 @@
 		background-color: var(--surface-2);
 		border: 2px solid var(--surface-3);
 		padding: 4px;
-		border-radius: 8px;
+		border-radius: var(--border-radius);
 		width: 100%;
 		overflow: hidden;
 	}
@@ -214,7 +207,7 @@
 		height: calc(100% - 8px);
 		width: calc(50% - 4px);
 		background-color: var(--brand-blue); /* Yellow from your global.css */
-		border-radius: 4px;
+		border-radius: var(--border-radius);
 		z-index: 1;
 		transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 	}

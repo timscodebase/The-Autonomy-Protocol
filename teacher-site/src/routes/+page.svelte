@@ -1,23 +1,15 @@
 <script lang="ts">
+	import { Hero } from '$components'
 	import HeroImage from '$images/pic-1.jpg?enhanced&w=400;800;1600;2400'
 </script>
 
-<section class="hero">
-	<enhanced:img
-		src={HeroImage}
-		sizes="(min-width: 800px) 800px, 100vw"
-		alt=""
-		aria-hidden="true"
-		class="hero-image"
-	/>
-	<div>
-		<h1>The Autonomy Protocol</h1>
-		<p>
-			Stop letting drama and stress run the show. Learn the "Life Skills" you
-			actually need to be your own boss.
-		</p>
-	</div>
-</section>
+<Hero {HeroImage}>
+	<h1>The Autonomy Protocol</h1>
+	<p>
+		Stop letting drama and stress run the show. Learn the "Life Skills" you
+		actually need to be your own boss.
+	</p>
+</Hero>
 
 <section class="content">
 	<h2>The Problem: Being "Handled"</h2>
