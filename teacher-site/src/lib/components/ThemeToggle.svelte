@@ -1,5 +1,5 @@
 <script>
-    import { themeState } from '$stores/theme.svelte.js';
+  import { themeState } from '$stores/theme.svelte.js';
   import Moon from '@lucide/svelte/icons/moon';
   import Sun from '@lucide/svelte/icons/sun';
 </script>
@@ -18,7 +18,7 @@
 
 <style>
     .theme-toggle {
-        background-color: none;
+        background: none;
         border: none;
         outline: none;
         color: var(--fg);
