@@ -34,7 +34,7 @@
 
 	--font-sans-1: 'Poppins', sans-serif;
     --font-sans-2: 'Inter', sans-serif;
-    --font-serif: font-family: "Special Elite", system-ui;
+    --font-serif: "Special Elite", system-ui;
 
 	--font-header-sans-1: var(--font-sans-1);
 	--font-header-sans-2: var(--font-sans-2);
