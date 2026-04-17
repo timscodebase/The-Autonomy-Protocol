@@ -107,7 +107,7 @@
 	</section>
 
 	<section class="content">
-		<div class="accountability-cycle">
+		<div class="integrity-cycle">
 			<h4><HandFist size={32} /> The Integrity Shield</h4>
 			<p>
 				<strong>How You Handle Others:</strong> 4 simple agreements to stop drama before
@@ -124,7 +124,8 @@
 				</div>
 				<div class="step-grid">
 					<span>2</span>
-					<p><strong>Don't take anything/anyone personaly:</strong> Humans, especialy in our
+					<p><strong>Don't take anything/anyone personaly:</strong>
+					Humans, especialy in our
 					formitive years, like to think that eveything is about them. "Someone does not
 					like me. It must be because I am unlikable." "Someone is mean to me. It me be
 					because of something I did to them." No matter what anyone does to us, it is
@@ -183,14 +184,15 @@
 <style>
 	.accountability-cycle,
 	.integrity-cycle {
+
 		h4 {
 			font-size: 2rem;
 			margin: 0;
 		}
 
 		.step-grid {
+			padding-top: var(--gap-2);
 			display: grid;
-			align-items: center;
 			gap: var(--gap-2);
 			grid-template-columns: auto 1fr;
 
@@ -202,6 +204,11 @@
                 padding: 0 var(--gap-1);
                 font-family: var(--font-header-serif);
 			}
+		}
+
+		p {
+			margin: 0;
+			padding: 0;
 		}
 	}
 
