@@ -32,6 +32,14 @@
 	--text-heading: var(--brand-blue);
 	--text-heading-alt: var(--brand-orange);
 
+	--font-sans-1: 'Poppins', sans-serif;
+    --font-sans-2: 'Inter', sans-serif;
+    --font-serif: font-family: "Special Elite", system-ui;
+
+	--font-header-sans-1: var(--font-sans-1);
+	--font-header-sans-2: var(--font-sans-2);
+	--font-header-serif: var(--font-serif);
+
 	--gap-1: 1rem;
 	--gap-2: calc(var(--gap-1) * 2);
 	--border-radius: 8px;
@@ -99,7 +107,7 @@ h4,
 h5,
 h6 {
 	color: var(--text-heading);
-	font-family: 'Poppins', sans-serif;
+	font-family: var(--font-header-sans-1);
 	margin-top: 0;
 }
 
