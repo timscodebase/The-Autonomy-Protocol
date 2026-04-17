@@ -21,7 +21,7 @@
 		display: grid;
         place-content: center;
 		grid-template-areas: "stack";
-	    max-height: 50svh;
+	    height: 50svh;
 		overflow: hidden;
 		border: 2px solid var(--brand-orange);
 		border-radius: var(--border-radius);
