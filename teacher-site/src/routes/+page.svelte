@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { Hero } from '$components'
-	import HeroImage from '$images/pic-1.jpg?enhanced&w=400;800;1600;2400'
+	import HeroImage from '$images/pic-1.jpg?enhanced&w=400;1000;1600;2400'
 
 	import Bug from '@lucide/svelte/icons/bug'
 	import LoaderPinwheel from '@lucide/svelte/icons/loader-pinwheel'
