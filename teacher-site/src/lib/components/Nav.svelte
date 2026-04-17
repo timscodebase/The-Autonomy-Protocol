@@ -37,7 +37,7 @@
     :global(:root[data-theme='light']) {
 	    color-scheme: light;
 
-        --shadow: 0 0 12px hsl(from var(--nav-bg) h s 150);
+        --shadow: 0 0 12px hsl(from var(--nav-bg) h s 60);
     }
 
 	nav {
