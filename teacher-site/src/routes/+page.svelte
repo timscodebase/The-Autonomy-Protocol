@@ -196,7 +196,7 @@
 
 			span {
                 font-weight: bolder;
-                text- align: center;
+                text-align: center;
 				color: var(--brand-blue);
 				font-size: 3rem;
 			}
