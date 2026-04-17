@@ -34,7 +34,7 @@
 
 	--gap-1: 1rem;
 	--gap-2: calc(var(--gap-1) * 2);
-	--border-radius: 4px;
+	--border-radius: 8px;
 }
 
 /* --- Light Mode Overrides --- */
@@ -177,4 +177,19 @@ strong {
 
 .flex > div {
 	flex: 1 1 300px;
+}
+
+.box {
+	border-radius: var(--border-radius);
+	padding: var(--gap-2);
+}
+
+.trans-blue {
+	background-color: rgb(from var(--brand-blue) r g b / 0.25);
+	border: 2px solid var(--brand-blue);
+}
+
+.trans-orange {
+	background-color: rgb(from var(--brand-orange) r g b / 0.25);
+	border: 2px solid var(--brand-orange);
 }

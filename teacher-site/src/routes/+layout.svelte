@@ -50,7 +50,7 @@
 
 <style>
 	.layout-wrapper {
-		max-width: 800px;
+		max-width: 1000px;
 		margin: var(--gap-2) auto;
 		min-height: 100svh;
 		display: grid;
