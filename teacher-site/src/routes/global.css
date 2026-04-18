@@ -150,6 +150,27 @@ textarea {
 	caret-shape: block;
 }
 
+ ol {
+   list-style: none;
+   counter-reset: item;
+
+   li {
+		counter-increment: item;
+		margin-bottom: 5px;
+	}
+	li:before {
+		margin-right: 10px;
+		content: counter(item);
+		color: var(--brand-blue);
+		font-size: 2rem;
+		width: 1.2em;
+		text-align: center;
+		display: inline-block;
+		font-family: var(--font-serif);
+	}
+ }
+ 
+
 .sr-only {
 	position: absolute;
 	width: 1px;
