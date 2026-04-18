@@ -6,6 +6,7 @@
 	import Bug from '@lucide/svelte/icons/bug'
 	import LoaderPinwheel from '@lucide/svelte/icons/loader-pinwheel'
 	import HandFist from '@lucide/svelte/icons/hand-fist'
+    import Map from '@lucide/svelte/icons/map'
 	import ShieldPlus from '@lucide/svelte/icons/shield-plus'
 	import Road from '@lucide/svelte/icons/road'
 	import Toolbox from '@lucide/svelte/icons/toolbox'
@@ -108,11 +109,16 @@
 </section>
 
 <section class="content">
-	<a class="link" href="/road-map"
-		><Road size={32} /> Our Curriculum Map <ArrowBigRight size={32} /></a
+	<a class="link" href="/curriculum"
+		><Road size={32} /> Curriculum Map <ArrowBigRight size={32} /></a
 	>
 	<a class="link" href="/resources"
 		><Toolbox size={32} /> Other Resources <ArrowBigRight
+			size={32}
+		/></a
+	>
+    <a class="link" href="/road-map"
+		><Map size={32} /> Road Map <ArrowBigRight
 			size={32}
 		/></a
 	>
