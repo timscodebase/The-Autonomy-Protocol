@@ -148,6 +148,7 @@ input,
 textarea {
 	caret-color: var(--brand-orange);
 	caret-shape: block;
+}
 
 .sr-only {
 	position: absolute;
