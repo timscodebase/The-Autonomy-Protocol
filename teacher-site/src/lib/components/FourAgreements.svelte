@@ -26,7 +26,7 @@
 					<strong>Don't take anything/anyone personaly:</strong>
 					Humans, especialy in our formitive years, like to think that eveything is about
 					them. "Someone does not like me. It must be because I am unlikable." "Someone
-					is mean to me. It me be because of something I did to them." No matter what anyone
+					is mean to me. It must be because of something I did to them." No matter what anyone
 					does to us, it is not about us, it is about them. Hurt people hurt people. We
 					can not take it personaly. We can only have compassion for those that hurt us.
 					We are the only ones responsible for our feelings.
