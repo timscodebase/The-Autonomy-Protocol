@@ -24,7 +24,7 @@
 		list-style: none;
 		display: flex;
 		align-items: center;
-		justify-content: space-between;
+		justify-content: space-evenly;
 		flex-wrap: wrap;
 		gap: var(--gap-1);
 		padding: var(--gap-1) 0;
@@ -55,9 +55,9 @@
 		}
 	}
 
-	@media (max-width: 600px) {
+	/* @media (max-width: 600px) {
 		ul {
 			justify-content: center;
 		}
-	}
+	} */
 </style>
