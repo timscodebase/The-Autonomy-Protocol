@@ -24,7 +24,13 @@
 <section class="margin-top">
 	<div class="grid">
 		<div class="trans-blue box">
-			<h2><Bug /> The Problem: The Limits of External Compliance</h2>
+			<div class="title-grid" style="--color: var(--brand-orange)">
+				<Bug size={45} />
+				<div class="flex-column">
+					<h2>The Problem:</h2>
+					<span>The Limits of External Compliance</span>
+				</div>
+			</div>
 			<p>
 				Traditional disciplinary models rely heavily on external regulation.
 				Administrators and teachers expend massive amounts of energy intervening in
@@ -38,9 +44,13 @@
 		</div>
 
 		<div class="trans-orange box">
-			<h2>
-				<ShieldPlus /> The Solution: A Comprehensive Framework for Student Behavior
-			</h2>
+			<div class="title-grid" style="--color: var(--brand-blue)">
+				<ShieldPlus size={45} />
+				<div class="flex-column">
+					<h2>The Opportunity:</h2>
+					<span>Building a Culture of Autonomy and Accountability</span>
+				</div>
+			</div>
 			<p>
 				The Autonomy Protocol equips your staff with a structured, scalable program
 				that shifts the burden of responsibility back to the student. By providing

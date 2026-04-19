@@ -235,13 +235,14 @@ details strong {
 }
 
 .title-grid {
+	--color: var(--brand-teal);
 	display: grid;
 	align-items: center;
-	color: var(--brand-teal);
+	color: var(--color);
 	gap: var(--gap-2);
 	grid-template-columns: auto 1fr;
 
-	h3, h4 { margin-bottom: 0; }
+	h2, h3, h4 { margin-bottom: 0; }
 }
 
 .flex-column {
