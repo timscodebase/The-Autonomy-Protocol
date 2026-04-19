@@ -12,7 +12,7 @@
 	--black-20: oklch(60% 0 0);
 	--white: oklch(90% 0 0);
 
-	--accent-1: oklab(0.59 -0.06 -0.22);
+	--accent-1: oklab(0.61 -0.06 -0.22);
 	--accent-2: oklab(0.72 0.16 0.16);
 	--accent-3: oklab(0.8 -0.17 -0.03);
 
@@ -74,7 +74,7 @@
 /* --- P3 Gamut Logic --- */
 @media (color-gamut: p3) {
 	:root {
-		--brand-blue: oklch(0.5926 0.2319 254);
+		--brand-blue: oklch(0.6132 0.2245 254);
 		--brand-orange: oklch(0.7191 0.2269 45);
 		--accent-3: oklch(0.8015 0.1751 190);
 	}
