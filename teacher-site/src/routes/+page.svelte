@@ -56,7 +56,7 @@
 <section class="content">
 	<div class="grid">
 		<section>
-			<div class='flex'>
+			<div class='grid'>
                 <HandFist size={32} />
                 <div class='flex-column'>
                     <h4>The Integrity Shield</h4>
