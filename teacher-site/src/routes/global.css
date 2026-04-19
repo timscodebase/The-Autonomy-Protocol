@@ -234,6 +234,11 @@ details strong {
 	flex: 1 1 300px;
 }
 
+.flex-column {
+	display: flex;
+	flex-direction: column;
+}
+
 .box {
 	border-radius: var(--border-radius);
 	padding: var(--gap-2);
