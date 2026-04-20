@@ -251,15 +251,16 @@ details strong {
 }
 
 .box {
+	--shadow: rgb(from var(--fg) r g b / 0.5)
 	border-radius: var(--border-radius);
 	padding: var(--gap-2);
 
 	h1, h2, h3, h4, strong {
 		text-shadow:
-			1px 1px 0px var(--fg),
-			-1px 1px 0px var(--fg),
-			1px -1px 0px var(--fg),
-			-1px -1px 0px var(--fg);
+			1px 1px 0px var(--shadow),
+			-1px 1px 0px var(--shadow),
+			1px -1px 0px var(--shadow),
+			-1px -1px 0px var(--shadow);
 	}
 }
 
