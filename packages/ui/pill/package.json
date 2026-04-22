@@ -1,0 +1,11 @@
+{
+  "name": "@autonomy/pill",
+  "version": "0.1.0",
+  "type": "module",
+  "exports": {
+    ".": "./index.ts"
+  },
+  "dependencies": {
+    "@autonomy/pill": "workspace:*"
+  }
+}
