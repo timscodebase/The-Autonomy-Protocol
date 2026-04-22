@@ -1,8 +1,19 @@
 <script lang="ts">
 	import Logo from './Logo.svelte'
-	import Nav from './Nav.svelte'
+	import { Nav } from '@autonomy/nav'
 	import Pill from './Pill.svelte'
 	import ThemeToggle from './ThemeToggle.svelte'
+	import { page } from '$app/stores';
+
+    const navLinks = [
+        { href: '/', label: 'Home' },
+        { href: '/curriculum', label: 'Curriculum' },
+        { href: '/resources', label: 'Resources' },
+        { href: '/road-map', label: 'Road Map' },
+        { href: '/contribute', label: 'Contribute' },
+        { href: '/about', label: 'About' },
+        { href: '/contact', label: 'Contact' }
+    ];
 </script>
 
 <header>
@@ -11,7 +22,7 @@
 		<Pill>&#945; Alpha</Pill>
 		<ThemeToggle />
 	</div>
-	<Nav />
+	<Nav links={navLinks} currentPath={$page.url.pathname} />
 </header>
 
 <style>

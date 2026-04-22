@@ -1,5 +1,5 @@
 <script lang="ts">
-	import HeroImage from '$images/road.jpg?enhanced&w=400;1000;1600;2400'
+	import HeroImage from '$images/road.jpg'
 	import { Banner, Hero } from '$components'
 </script>
 

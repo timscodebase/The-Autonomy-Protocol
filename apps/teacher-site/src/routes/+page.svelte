@@ -1,15 +1,26 @@
 <script lang="ts">
 	import { FourAgreements, Hero, TwelveSteps } from '$components'
-	import HeroImage from '$images/pic-1.jpg?enhanced&w=400;1000;1600;2400'
+	import HeroImage from '$images/pic-1.jpg'
 
-	import ArrowBigRight from '@lucide/svelte/icons/arrow-big-right'
-	import Bug from '@lucide/svelte/icons/bug'
-	import LoaderPinwheel from '@lucide/svelte/icons/loader-pinwheel'
-	import HandFist from '@lucide/svelte/icons/hand-fist'
-	import Map from '@lucide/svelte/icons/map'
-	import ShieldPlus from '@lucide/svelte/icons/shield-plus'
-	import Road from '@lucide/svelte/icons/road'
-	import Toolbox from '@lucide/svelte/icons/toolbox'
+	// import ArrowBigRight from '@lucide/svelte/icons/arrow-big-right'
+	// import Bug from '@lucide/svelte/icons/bug'
+	// import LoaderPinwheel from '@lucide/svelte/icons/loader-pinwheel'
+	// import HandFist from '@lucide/svelte/icons/hand-fist'
+	// import Map from '@lucide/svelte/icons/map'
+	// import ShieldPlus from '@lucide/svelte/icons/shield-plus'
+	// import Road from '@lucide/svelte/icons/road'
+	// import Toolbox from '@lucide/svelte/icons/toolbox'
+
+	import { 
+        ArrowBigRight, 
+        Bug, 
+        LoaderPinwheel, 
+        HandFist, 
+        Map, 
+        ShieldPlus, 
+        Road, 
+        Toolbox 
+    } from '@lucide/svelte';
 </script>
 
 <Hero {HeroImage}>

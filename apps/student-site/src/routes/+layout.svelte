@@ -1,7 +1,7 @@
 <script lang="ts">
 	import favicon from '$lib/assets/favicon.svg'
 	import OgImg from '$images/og-img.png'
-	import './global.css'
+	import '@autonomy/theme/styles.css';
 
 	import { Banner, Footer, Header } from '$components'
 
@@ -57,5 +57,32 @@
 		padding: var(--gap-2);
 		grid-template-rows: auto 1fr auto;
 		background: var(--surface-4);
+	}
+
+	:global(:root) {
+		--accent-1: oklab(0.61 -0.06 -0.22);
+		--accent-2: oklab(0.72 0.16 0.16);
+		--accent-3: oklab(0.8 -0.17 -0.03);
+	}
+
+	:global(:root[data-theme="light"]) {
+		--brand-blue: oklab(0.45 -0.05 -0.17);
+		--brand-orange: oklab(0.57 0.13 0.13);
+		--brand-teal: oklab(0.64 -0.14 -0.02);
+		--accent-3: oklab(0.64 -0.14 -0.02);
+	}
+
+	@media (color-gamut: p3) {
+		:global(:root) {
+			--brand-blue: oklch(0.6132 0.2245 254);
+			--brand-orange: oklch(0.7191 0.2269 45);
+			--accent-3: oklch(0.8015 0.1751 190);
+		}
+
+		:global(:root[data-theme="light"]) {
+			--brand-blue: oklch(0.4485 0.1751 254.74);
+			--brand-orange: oklch(0.5691 0.1801 45);
+			--accent-3: oklch(0.6397 0.1431 190);
+		}
 	}
 </style>
