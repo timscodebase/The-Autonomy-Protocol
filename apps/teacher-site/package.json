@@ -14,7 +14,9 @@
     "format": "prettier --write ."
   },
   "dependencies": {
+    "@autonomy/banner": "workspace:*",
     "@autonomy/header": "workspace:*",
+    "@autonomy/hero": "workspace:*",
     "@autonomy/nav": "workspace:*",
     "@autonomy/theme": "workspace:*",
     "@lucide/svelte": "^1.8.0",

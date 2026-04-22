@@ -122,9 +122,15 @@ importers:
 
   apps/teacher-site:
     dependencies:
+      '@autonomy/banner':
+        specifier: workspace:*
+        version: link:../../packages/ui/banner
       '@autonomy/header':
         specifier: workspace:*
         version: link:../../packages/ui/header
+      '@autonomy/hero':
+        specifier: workspace:*
+        version: link:../../packages/ui/hero
       '@autonomy/nav':
         specifier: workspace:*
         version: link:../../packages/ui/nav
@@ -199,7 +205,15 @@ importers:
         specifier: ^10.0.0
         version: 10.0.0(@voidzero-dev/vite-plus-core@0.1.19(@types/node@24.12.2)(jiti@2.6.1)(typescript@6.0.3)(yaml@2.8.3))
 
+  packages/ui/banner:
+    dependencies:
+      '@lucide/svelte':
+        specifier: 1.8.0
+        version: 1.8.0(svelte@5.55.4(@typescript-eslint/types@8.59.0))
+
   packages/ui/header: {}
+
+  packages/ui/hero: {}
 
   packages/ui/nav: {}
 

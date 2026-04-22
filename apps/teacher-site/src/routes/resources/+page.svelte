@@ -1,6 +1,7 @@
 <script lang="ts">
 	import HeroImage from '$images/pic-6.jpg'
-	import { Banner, Hero } from '$components'
+
+	import { Banner } from '@autonomy/banner'
 </script>
 
 <Hero {HeroImage}>
