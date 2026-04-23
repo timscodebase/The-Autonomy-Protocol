@@ -14,7 +14,16 @@
     "format": "prettier --write ."
   },
   "dependencies": {
+    "@autonomy/banner": "workspace:*",
+    "@autonomy/footer": "workspace:*",
+    "@autonomy/four-agreements": "workspace:*",
+    "@autonomy/header": "workspace:*",
+    "@autonomy/hero": "workspace:*",
+    "@autonomy/logo": "workspace:*",
+    "@autonomy/nav": "workspace:*",
+    "@autonomy/pill": "workspace:*",
     "@autonomy/theme": "workspace:*",
+    "@autonomy/twelve-steps": "workspace:*",
     "@lucide/svelte": "^1.8.0",
     "mdsvex": "^0.12.7"
   },
