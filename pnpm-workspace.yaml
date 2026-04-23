@@ -11,6 +11,7 @@ catalog:
   "@img/sharp-darwin-arm64": ^0.34.5
   "@img/sharp-libvips-darwin-arm64": ^1.2.4
   "@types/node": ^24
+  "@typescript/native-preview": 7.0.0-dev.20260421.2
   sharp: ^0.34.5
   typescript: ^5
   vite: npm:@voidzero-dev/vite-plus-core@latest
