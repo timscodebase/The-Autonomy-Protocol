@@ -14,7 +14,7 @@ catalogs:
       version: 1.2.4
     '@lucide/svelte':
       specifier: ^1.9.0
-      version: 1.8.0
+      version: 1.9.0
     '@typescript/native-preview':
       specifier: 7.0.0-dev.20260421.2
       version: 7.0.0-dev.20260421.2
@@ -67,6 +67,8 @@ importers:
   packages/ui/header: {}
 
   packages/ui/hero: {}
+
+  packages/ui/horizontal-scroll: {}
 
   packages/ui/logo:
     dependencies:
@@ -230,6 +232,9 @@ importers:
       '@autonomy/hero':
         specifier: workspace:*
         version: link:../../packages/ui/hero
+      '@autonomy/horizontal-scroll':
+        specifier: workspace:*
+        version: link:../../packages/ui/horizontal-scroll
       '@autonomy/logo':
         specifier: workspace:*
         version: link:../../packages/ui/logo

@@ -19,6 +19,7 @@
     "@autonomy/four-agreements": "workspace:*",
     "@autonomy/header": "workspace:*",
     "@autonomy/hero": "workspace:*",
+    "@autonomy/horizontal-scroll": "workspace:*",
     "@autonomy/logo": "workspace:*",
     "@autonomy/nav": "workspace:*",
     "@autonomy/pill": "workspace:*",

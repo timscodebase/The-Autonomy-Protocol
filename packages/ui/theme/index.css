@@ -180,6 +180,10 @@ details strong {
   flex-direction: column;
 }
 
+.no-stretch-flex {
+  flex: 0 1 250px;
+}
+
 .box {
   border-radius: var(--border-radius);
   padding: var(--gap-2);

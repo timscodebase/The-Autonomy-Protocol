@@ -1,6 +1,7 @@
 <script lang="ts">
 	// Import the shared packages
 	import { FourAgreements } from '@autonomy/four-agreements'
+	import { HorizontalScroll } from '@autonomy/horizontal-scroll'
 	import { TwelveSteps } from '@autonomy/twelve-steps'
 	import { Hero } from '@autonomy/hero'
 
@@ -69,6 +70,54 @@
 		</div>
 	</div>
 </section>
+
+<HorizontalScroll>
+	<div class="trans-blue box">
+		<p>
+			The Autonomy Protocol equips your staff with a structured, scalable program
+			that shifts the burden of responsibility back to the student. By providing
+			clear, actionable tools for emotional regulation and restorative
+			accountability, the protocol helps schools cultivate a climate of mutual
+			respect and proactive problem-solving. We break this transition into two
+			operational models: <strong>The Accountability Cycle</strong>, and
+			<strong>The Integrity Shield</strong>.
+		</p>
+	</div>
+	<div class="trans-blue box no-stretch-flex">
+		<p>
+			The Autonomy Protocol equips your staff with a structured, scalable program
+			that shifts the burden of responsibility back to the student. By providing
+			clear, actionable tools for emotional regulation and restorative
+			accountability, the protocol helps schools cultivate a climate of mutual
+			respect and proactive problem-solving. We break this transition into two
+			operational models: <strong>The Accountability Cycle</strong>, and
+			<strong>The Integrity Shield</strong>.
+		</p>
+	</div>
+	<div class="trans-blue box no-stretch-flex">
+		<p>
+			The Autonomy Protocol equips your staff with a structured, scalable program
+			that shifts the burden of responsibility back to the student. By providing
+			clear, actionable tools for emotional regulation and restorative
+			accountability, the protocol helps schools cultivate a climate of mutual
+			respect and proactive problem-solving. We break this transition into two
+			operational models: <strong>The Accountability Cycle</strong>, and
+			<strong>The Integrity Shield</strong>.
+		</p>
+	</div>
+	<div class="trans-blue box no-stretch-flex">
+		<p>
+			The Autonomy Protocol equips your staff with a structured, scalable program
+			that shifts the burden of responsibility back to the student. By providing
+			clear, actionable tools for emotional regulation and restorative
+			accountability, the protocol helps schools cultivate a climate of mutual
+			respect and proactive problem-solving. We break this transition into two
+			operational models: <strong>The Accountability Cycle</strong>, and
+			<strong>The Integrity Shield</strong>.
+		</p>
+	</div>
+</HorizontalScroll>
+
 <section class="content">
 	<div class="grid">
 		<section>

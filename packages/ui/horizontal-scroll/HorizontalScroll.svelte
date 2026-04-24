@@ -11,9 +11,11 @@
 
 <section id="sectionPin">
 	<div class="pin-wrap-sticky">
-		<div class="pin-wrap">…</div>
+		<div class="pin-wrap">
+      {@render children()}
+    </div>
 	</div>
-</div>
+</section>
 
 <style>
   @keyframes move {
@@ -24,8 +26,8 @@
   }
 
   #sectionPin {
-    /* Stretch it out, so that we create room for the horizontal scroll animation */
-    height: 500vh;
+    max-width: 1000px;
+    height: fit-content;
     overflow: visible; /* To make position sticky work … */
 
     view-timeline-name: --section-pin-tl;
@@ -34,17 +36,18 @@
 
   .pin-wrap-sticky {
     /* Stick to Top */
-    height: 100vh;
-    width: 100vw;
+    height: fit-content;
+    width: 100%;
     position: sticky;
     top: 0;
 
-    width: 100vw;
+    /* width: 100vw; */
     overflow-x: hidden;
   }
 
   .pin-wrap {
-    height: 100svh;
+    display: flex;
+    /* height: 70svh; */
     width: 250vmax;
 
     /* Hook animation */
