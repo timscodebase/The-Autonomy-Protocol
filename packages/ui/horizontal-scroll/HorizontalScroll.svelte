@@ -37,7 +37,7 @@
     /* The "Window Width" variable ensures the scroll area matches your
        site's layout. On mobile, we use 90% to keep a margin on the sides.
     */
-    --window-width: min(1000px);
+    --window-width: min(1000px, 90vw);
 
     width: 100%;
     height: var(--dynamic-height);
